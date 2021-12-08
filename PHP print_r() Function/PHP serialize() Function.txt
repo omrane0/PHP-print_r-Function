@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$data = serialize(array("Red", "Green", "Blue"));
+echo $data;
+?>
+
+</body>
+</html>
+  
+
+
+
+
+
+
+
+
+a:3:{i:0;s:3:"Red";i:1;s:5:"Green";i:2;s:4:"Blue";}
